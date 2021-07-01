@@ -127,7 +127,7 @@ body{
 .hdicon {
   display: flex;
   padding-bottom: 20px;
-  padding-top: 175px;
+  padding-top: 90px;
     padding-left: 54px;
 }
 .hdicon h4 {
@@ -136,7 +136,7 @@ body{
   font-weight: 600;
 }
 .contentP {
-  padding-left: 60px;
+  padding-left: 0px;
 }
 .contentP p {
     line-height: 30px;
@@ -147,7 +147,7 @@ body{
   display: flex;
   padding-bottom: 20px;
   padding-top: 40px;
-     padding-left: 54px;
+     padding-left: 0px;
 }
 .hdicon2 h4 {
   padding-left: 20px;
@@ -157,7 +157,7 @@ body{
 /*concern css start here*/
 
 .slide-item img {
-  width: 90%;
+  width: 100%;
   /*! height: 100%; */
 }
 .slide-item h4 {
