@@ -1,0 +1,160 @@
+ @media (max-width: 992px) { 
+    
+    .slider-details h1 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 36px;
+	letter-spacing: -1px;
+	color: #1F1F1F;
+    }
+    .slider-details p{
+        margin-top: 24px;
+    }
+    .social-icon ul{
+        margin: 0;
+    }
+    .slider-details h1 {
+    font-size: 31px;
+    line-height: 40px;
+    }
+    .btn_prev {
+    left: 47%;
+    }
+    .lts-news .pragf {
+	line-height: 21px;
+	text-align: left;
+	padding-left: 0;
+    }
+    .l-news img {
+	width: 100%;
+    }
+    .l-newsbox {
+	background: url('image%202.png');
+	width: 100%;
+	height: unset;
+	left: 42px;
+	padding: 0;
+    }
+    .l-newsbox h6 {
+	line-height: 30px;
+    }
+    .lts-news{
+       padding: 30px;
+    }
+    .l-newsbox {
+	background:unset;
+	width: 100%;
+	height: unset;
+	left: 42px;
+	padding: 30px;
+        
+    }
+    .logo-footer ul {
+	list-style-type: none;
+	padding-top: 30px;
+	display: contents;
+    margin: 0;
+    }
+    .consern .contentP {
+	padding-left: 0;
+	text-align: justify;
+    }
+    .l-news img {
+    width: 100%;
+    }
+    .slider-details p {
+    margin-top: 0;
+    padding: 0;
+    }
+    
+}
+
+
+
+
+@media (max-width: 768px) { 
+    .social-icon ul {
+	    list-style-type: none;
+        margin: 0;
+        
+   }
+    .social-icon ul li{
+	    display: inline-block;
+        padding-left: 8px;
+   }
+    .hdicon{
+        padding-top: 100px;
+    }
+    .btn_next {
+	right: 38%;
+}
+    .btn_prev {
+	right: 47%;
+}
+}
+/*
+    .l-newsbox {
+    margin: 20px 0;
+    }
+    .lts-news {
+	margin: 20px;
+    }
+    .lts-news p {
+	margin-top: 0;
+	margin-bottom: 5px;
+    }
+    .lts-news {
+	 padding: 0; 
+    }
+    .contentP {
+	 padding-left: 0; 
+    }
+*/
+    .logo-footer {
+    margin-bottom: 35px;
+    }
+
+@media (max-width: 575.98px) {
+.btn_next {
+	right: 42%;
+    }
+    .hdicon,.hdicon2{
+        padding-left: 0;
+    }
+    .contentP{
+        padding-left: 0;
+    }
+    .fotter {
+	text-align: center;
+    }
+    .social-icon ul li {
+	padding-left: 2px;
+    }
+    .btn_prev {
+	left: 36%;
+    }
+    .btn_nexxt {
+	left: 41%;
+    }
+    .ab-details h2 {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 359px){
+    .btn_prev {
+  left: 36%;
+  }
+  .btn_nexxt {
+  left: 41%;
+  }
+}
+
+@media (max-width: 1200px) { 
+
+}
+
+@media (max-width: 1400px) { 
+    
+}
