@@ -128,7 +128,6 @@ body{
   display: flex;
   padding-bottom: 20px;
   padding-top: 90px;
-    padding-left: 54px;
 }
 .hdicon h4 {
   padding-left: 20px;
@@ -136,7 +135,7 @@ body{
   font-weight: 600;
 }
 .contentP {
-  padding-left: 0px;
+  margin-right: 10px;
 }
 .contentP p {
     line-height: 30px;
