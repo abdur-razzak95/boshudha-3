@@ -78,7 +78,7 @@ body{
     background: #4737FF;
     border-radius: 8px;
     margin-bottom: 20px;
-}
+  }
 .social-icon ul {
 	list-style-type: none;
 /*	margin-right: 100px;*/
@@ -383,7 +383,7 @@ nav{
 nav .wrapper{
   position: relative;
   max-width: 1300px;
-  padding: 0px 30px;
+  padding: 0px 9px;
   height: 70px;
   line-height: 70px !important;
   margin: auto;
