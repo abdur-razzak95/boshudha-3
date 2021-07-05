@@ -122,6 +122,9 @@
     .slider_image img {
         height: 330px;
     }
+    .uimg{
+        padding-right: 0;
+    }
 }
 /*
     .l-newsbox {

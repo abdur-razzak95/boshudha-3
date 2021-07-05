@@ -97,38 +97,47 @@
                 <input type="checkbox" id="showMega">
                 <label for="showMega" class="mobile-item">Company +</label>
                 <div class="mega-box">
-                <div class="content">
-                    <div class="row">
-                    <img src="assets/img/img-5.png" alt="">
+                    <div class="content">
+                        <!-- <div class="row">
+                        <img src="assets/img/img-5.png" alt="">
+                        </div> -->
+                        <!-- <div class="row">
+                            <header>Design Services</header>
+                            <ul class="mega-links">
+                                <li><a href="#">Graphics</a></li>
+                                <li><a href="#">Vectors</a></li>
+                                <li><a href="#">Business cards</a></li>
+                                <li><a href="#">Custom logo</a></li>
+                            </ul>
+                        </div> -->
+                        <div class="row">
+                            <!-- <header>Design Services</header> -->
+                            <ul class="mega-links">
+                                <li><a href="#">Graphics</a></li>
+                                <li><a href="#">Vectors</a></li>
+                                <li><a href="#">Business cards</a></li>
+                                <li><a href="#">Custom logo</a></li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <!-- <header>Email Services</header> -->
+                            <ul class="mega-links">
+                                <li><a href="#">Personal Email</a></li>
+                                <li><a href="#">Business Email</a></li>
+                                <li><a href="#">Mobile Email</a></li>
+                                <li><a href="#">Web Marketing</a></li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <!-- <header>Security services</header> -->
+                            <ul class="mega-links">
+                                <li><a href="#">Site Seal</a></li>
+                                <li><a href="#">VPS Hosting</a></li>
+                                <li><a href="#">Privacy Seal</a></li>
+                                <li><a href="#">Website design</a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="row">
-                    <header>Design Services</header>
-                    <ul class="mega-links">
-                        <li><a href="#">Graphics</a></li>
-                        <li><a href="#">Vectors</a></li>
-                        <li><a href="#">Business cards</a></li>
-                        <li><a href="#">Custom logo</a></li>
-                    </ul>
-                    </div>
-                    <div class="row">
-                    <header>Email Services</header>
-                    <ul class="mega-links">
-                        <li><a href="#">Personal Email</a></li>
-                        <li><a href="#">Business Email</a></li>
-                        <li><a href="#">Mobile Email</a></li>
-                        <li><a href="#">Web Marketing</a></li>
-                    </ul>
-                    </div>
-                    <div class="row">
-                    <header>Security services</header>
-                    <ul class="mega-links">
-                        <li><a href="#">Site Seal</a></li>
-                        <li><a href="#">VPS Hosting</a></li>
-                        <li><a href="#">Privacy Seal</a></li>
-                        <li><a href="#">Website design</a></li>
-                    </ul>
-                    </div>
-                </div>
                 </div>
             </li>
             <li><a href="#">Gallery</a></li>
@@ -200,6 +209,7 @@
                       <button class="carousel-control-prev btn_prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
                            <i class="fas fa-chevron-left"></i>
                       </button>
+
                       <button class="carousel-control-next btn_next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
                         <i class="fas fa-chevron-right"></i>
                       </button>
@@ -238,13 +248,13 @@
                          <h4 class="animate__animated animate__backInLeft">Mission</h4>
                      </div>
                      <div class="contentP">
-                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam sit, dolor eaque cumque unde, at ut iste laboriosam voluptatem repudiandae voluptas similique quis quae maxime culpa amet porro totam adipisci.</p>
+                         <p class="uimg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam sit, dolor eaque cumque unde, at ut iste laboriosam voluptatem repudiandae voluptas similique quis quae maxime culpa amet porro totam adipisci.</p>
                      </div>
                  </div>
                  <div class="col-md-6">
                      <div class="hdicon2">
                          <img src="assets/img/Group%207.png" alt="">
-                         <h4 class="animate__animated animate__backInRight">Mission</h4>
+                         <h4 class="animate__animated animate__backInRight">Vission</h4>
                      </div>
                      <div class="contentP">
                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam sit, dolor eaque cumque unde, at ut iste laboriosam voluptatem repudiandae voluptas similique quis quae maxime culpa amet porro totam adipisci.</p>
@@ -261,6 +271,15 @@
                 <h1 style="font-weight: 600">14 sister concern</h1>
             </div>
              <div class="row">
+                 <div class="lr-btn text-end">
+                  <div id="controls">
+                    <button class="previous"><i class="fas fa-long-arrow-alt-left"></i></button>
+                    <button class="next"><i class="fas fa-long-arrow-alt-right"></i></button>
+                    <!-- <button class="auto"></button> -->
+                  </div>
+                </div>
+                <!-- <div class="tns-controls" aria-label="Carousel Navigation" tabindex="0"><button data-controls="prev" tabindex="-1" aria-controls="tns1">prev</button><button data-controls="next" tabindex="-1" aria-controls="tns1"><i class="fas fa-arrow-right"></i></button></div> -->
+
                  <div class="slide-consern">
                      <div class="p-2">
                         <div class="slide-item"><img src="assets/img/sister-concern/Rectangle%202211.png" alt="">
@@ -467,6 +486,12 @@
                           </div>
                       </div>
               </div>
+              <hr color="#ddddd">
+              <div class="row">
+                  <div class="copyright text-center">
+                    <p>Copyright © 2021 All rights reserved by <span style="color: #F9A61A;">projonmo</span> it </p>
+                  </div>
+              </div>
           </div>
       </footer>
       
@@ -505,9 +530,13 @@
                 items: 5,
                 slideBy: 'page',
                 autoplay: false,
-                controls: false,
+                controls: true,
                 nav: false,
-                mouseDrag: true,
+                mouseDrag: true, 
+                 controlsContainer: '#controls',
+                prevButton: '.previous',
+                nextButton: '.next',
+                autoplayButton: '.auto',
                  responsive: {
                      1200: {
                     items: 4
@@ -528,14 +557,21 @@
                 },
                 
               });
+
+
+    
         </script>
         <!-- slide partner-->
         <script>
+
+
+
+
             var slider = tns({
                 container: '.slide-wrapper',
                 items: 5,
                 slideBy: 'page',
-                autoplay: false,
+                autoplay: true,
                 controls: false,
                 nav: false,
                 mouseDrag: true,
